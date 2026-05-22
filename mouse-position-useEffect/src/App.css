@@ -4,7 +4,7 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.app-container{
+.parent-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,4 +18,13 @@
 .app-container p{
     margin-top: 20px;
     font-size: 2rem;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgb(128 128 128 / 0.47);
+    box-shadow: 2px 2px 5px #9a9a9a;
+    margin-bottom: 50px;
 }
